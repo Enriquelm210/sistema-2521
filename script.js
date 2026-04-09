@@ -1,7 +1,7 @@
 const scenes = {
     portada: {
         image: "assets/portada.png",
-        text: "SISTEMA 25|21: Cargando partida... 9 de Octubre. Cielo, presiona a Snoopy para desbloquear el primer capítulo.",
+        text: "SISTEMA 25|21: Cargando partida... Cargando recuerdos del 9 de Octubre... Cielo, presiona a Snoopy para desbloquear el primer capítulo.",
         showAvatars: false,
         secret: "Kike dice: Estaba tan nervioso que mi procesador iba a 1000%, pero verte valía cualquier bug.",
         achievement: "NUEVA PARTIDA INICIADA",
@@ -9,7 +9,7 @@ const scenes = {
     },
     miedo: {
         image: "assets/miedo.png",
-        text: "CAPÍTULO 1: El Salto. Tenía un miedo increíble porque me gustabas demasiado. No sabía si lanzarme, pero me animé a enviarte ese TikTok.",
+        text: "CAPÍTULO 1: El Salto. Tenía un miedo increíble porque me gustabas demasiado. No sabía si lanzarme, pero me animé a enviarte ese TikTok con el cual surgió la posibilidad de tener una cita ocntigo.",
         showAvatars: true,
         secret: "Kike dice: Fue como lanzar una moneda al aire... ¡y por suerte cayó de mi lado!",
         achievement: "LOGRO: VALENTÍA +100",
@@ -17,39 +17,39 @@ const scenes = {
     },
     broma: {
         image: "assets/cap1.png",
-        text: "Creíste que era broma... hasta que al día siguiente te dije que era muy en serio. No era una mentira, moría por salir contigo.",
+        text: "Creíste que era broma... hasta que te dije y aseguré que era muy en serio. No era una mentira, moría por salir contigo en verdad.",
         showAvatars: true,
-        secret: "Kike dice: Mi corazón dio un vuelco cuando confirmaste que sí ibas.",
+        secret: "Kike dice: Mi corazón se emocionó demasiado cuando confirmaste que sí ibas.",
         achievement: "LOGRO: CITA CONFIRMADA",
         options: [{ text: "EL DÍA DE LA CITA", next: "nervios" }]
     },
     nervios: {
         image: "assets/estresado.png",
-        text: "Estaba tan nervioso que no sabía ni qué ropa ponerme. Solo sabía que quería que fuera el día más especial para ti.",
+        text: "Estaba tan nervioso que no sabía ni qué ropa ponerme, pues queria verme de lo mejor para ti. Solo sabía que quería que fuera muy especial para ti y que quisieras repetir una cita conmigo.",
         showAvatars: true,
-        secret: "Kike dice: Me probé todo el closet buscando el outfit perfecto.",
+        secret: "Kike dice: Me probé todo el closet buscando mi mejor ropa para poder tener esa cita contigo.",
         achievement: "LOGRO: NERVIOS DE ACERO",
         options: [{ text: "EL RAMO", next: "flores" }]
     },
     flores: {
         image: "assets/flores.png",
-        text: "CAPÍTULO 2: El Detalle. Antes de pasar por ti, compré gerberas y les puse carritos. Yo ya sabía que eran tus favoritas porque te investigué.",
+        text: "CAPÍTULO 2: El Detalle. Antes de pasar por ti, compré gerberas y les puse carritos. Yo ya sabía que eran tus favoritas porque te investigué. Y desde que los ví, pensé completamente en ti",
         showAvatars: true,
-        secret: "Kike dice: Ver tu cara cuando viste los carritos en el ramo fue mi momento favorito.",
+        secret: "Kike dice: Ver tu cara cuando viste los carritos en el ramo fue mi momento favorito pues me daban muchios nervios que fuera todo lo contrario.",
         achievement: "LOGRO: DETECTIVE DE GERBERAS",
         options: [{ text: "LLEGANDO AL CAFÉ", next: "starbucks" }]
     },
     starbucks: {
         image: "assets/starbucks.png",
-        text: "CAPÍTULO 3: La Conexión. En el Starbucks me encantó que tenías demasiado tema de conversación. Me enamoré de cómo piensas.",
+        text: "CAPÍTULO 3: La Conexión. En el Starbucks me encantó que tenías demasiado tema de conversación. Me enamoré de cómo piensas y que jamas dejas de hablar pues ami me encanta escuchar tu linda voz.",
         showAvatars: true,
-        secret: "Kike dice: Me respondiste mil dudas sin que yo tuviera que preguntar nada. Eres mágica.",
+        secret: "Kike dice: Me respondiste mil dudas sin que yo tuviera que preguntar nada. Eres mágica y en verdad me enamoré de ti.",
         achievement: "LOGRO: CONEXIÓN TOTAL",
         options: [{ text: "TUS OJOS", next: "mirada" }]
     },
     mirada: {
         image: "assets/mirada-enamorada.png",
-        text: "No dejaba de mirarte, te veías hermosa. Mirarte a los ojos hacía que mi respiración fuera más rápida. Solo quería que el tiempo se detuviera.",
+        text: "No dejaba de mirarte, te veías hermosa. Mirarte a los ojos hacía que mi respiración fuera más rápida. Solo quería que el tiempo se detuviera y estaba tan impresionado de lo linda que eres.",
         showAvatars: true,
         secret: "Kike dice: Estaba hipnotizado por tu belleza, el café era lo de menos.",
         achievement: "LOGRO: MIRADA ENAMORADA",
@@ -57,49 +57,49 @@ const scenes = {
     },
     billar_idea: {
         image: "assets/idea_billar.png",
-        text: "No quería que la cita terminara, así que te invité al billar. Me dijiste que sí y nos fuimos directo al Deportivo Sarape.",
+        text: "No quería que la cita terminara, teniamos mucho por platicar sin parar, así que te invité al billar. Me dijiste que sí y nos fuimos directo al billar.",
         showAvatars: true,
-        secret: "Kike dice: No planeé nada más, pero contigo la plática fluyó tanto que el tiempo no alcanzaba.",
+        secret: "Kike dice: No planeé nada más, pero contigo la plática fluyó tanto que el tiempo no alcanzaba e incluso de camino al billar no parabamos de platicar.",
         achievement: "LOGRO: EXTRA INNINGS",
         options: [{ text: "EN EL JUEGO", next: "sarape" }]
     },
     sarape: {
         image: "assets/mer-villar.png",
-        text: "CAPÍTULO 4: El Sarape. No era un lugar lujoso, pero fue increíble. Descubrí que eres súper competitiva y eso me encantó.",
+        text: "CAPÍTULO 4: El bilalr sarape. No era un lugar lujoso, pero fue increíble. Descubrí que eres súper competitiva y eso me encantó ademas de que pase mas tiempo contigo y eso era lo unico que importaba.",
         showAvatars: true,
-        secret: "Kike dice: Casi ni jugamos por estar hable y hable. Fue perfecto.",
-        achievement: "LOGRO: FAN #1 DE ACEREROS",
+        secret: "Kike dice: Casi ni jugamos por estar hable y hable. Fue perfecto quedé aun más enamorado de ti.",
+        achievement: "LOGRO: tan competitiva como Acereros",
         options: [{ text: "LA TISA", next: "tisa" }]
     },
     tisa: {
         image: "assets/tiza.png",
         text: "Te vi tisa en el cachete y me acerqué a limpiarte. Fue un gesto esporádico pero con seguridad. Me dijiste después que eso te puso nerviosa.",
         showAvatars: true,
-        secret: "Kike dice: Yo estaba igual de nervioso por dentro, ¡pero tenía que ser valiente!",
+        secret: "Kike dice: Yo estaba igual de nervioso por dentro pues no sabia como reaccionarias, ¡pero tenía que ser valiente!",
         achievement: "LOGRO: MOVIMIENTO MAESTRO",
         options: [{ text: "SIN DISTRACCIONES", next: "pelicula" }]
     },
     pelicula: {
         image: "assets/billar-pelicula.png",
-        text: "Recreé la escena de 'El Viaje Más Largo', acercándome para decirte 'sin distracciones'. Fue tan espontáneo que supe que eras la mujer de mis sueños.",
+        text: "Recreé la escena de 'El Viaje Más Largo', acercándome para decirte 'sin distracciones'. Fue tan espontáneo porqiue es una escena de mi pelicual favorita y al hacerlo de prontocontigo y salió bien supe que eras la mujer de mis sueños.",
         showAvatars: true,
         secret: "Kike dice: Ese momento se sintió como una película real contigo.",
-        achievement: "LOGRO: PROTAGONISTA FAVORITA",
+        achievement: "LOGRO: MI PROTAGONISTA FAVORITA",
         options: [{ text: "EL REGRESO", next: "casa" }]
     },
     casa: {
         image: "assets/caminocorrecto.png",
-        text: "Te dejé en tu casa y regresé mega enamorado. Esa cita me bastó para saber que eres todo lo que amo y todo lo que quiero.",
+        text: "Te dejé en tu casa y regresé mega enamorado. Esa cita me bastó para saber que eres todo lo que amo y todo lo que quiero pues desde entonces no he dejado de pensar en ti.",
         showAvatars: true,
-        secret: "Kike dice: Desde ese 9 de octubre, mi mundo cambió por completo.",
+        secret: "Kike dice: Desde ese 9 de octubre, mi mundo cambió por completo porque ya no solo hablabamos por texto.",
         achievement: "LOGRO: HOME RUN DEL AMOR",
         options: [{ text: "PREGUNTA FINAL...", next: "propuesta" }]
     },
     propuesta: {
         image: "assets/home.png",
-        text: "He recorrido todas las bases contigo. Cielo, después de aquel 9 de octubre... ¿Quieres ser mi novia?",
+        text: "hemos tenido lindos momentos, momentos inolvidables y experiencias juntos que nos han hecho estar mas seguros de nosotros mismos. Reconozco que he recorrido todas las bases contigo. Cielo, después de aquel 9 de octubre hasta la fecha quiero pedirte una cosa... ¿Quieres ser mi novia?",
         showAvatars: true,
-        secret: "¡SNOOPY ESTÁ LISTO PARA EL FESTEJO!",
+        secret: "¡SNOOPY ESTÁ IGUAL DE NERVIOSO QUE KIKE, PERO ESTÁ LISTO PARA EL FESTEJO !!!",
         achievement: "¡ÚLTIMA MISIÓN!",
         options: [
             { text: "¡SÍ, ACEPTO! <3", next: "final_feliz" },
@@ -108,9 +108,9 @@ const scenes = {
     },
     error_bucle: {
         image: "assets/error.png",
-        text: "SYSTEM ERROR: El botón 'NO' ha sido deshabilitado. No puedes escapar de este final feliz.",
+        text: "SYSTEM ERROR: El botón 'NO' ha sido deshabilitado de manera inesperada, hay un error en el sistema. No puedes escapar de este final feliz, intentalo de nuevoo!!!.",
         showAvatars: true,
-        secret: "Snoopy dice: ¡Intenta de nuevo! El destino ya eligió.",
+        secret: "Snoopy dice: ¡Intenta de nuevo!.",
         achievement: "BUG DETECTADO",
         options: [
             { text: "¡ESTÁ BIEN, SÍ! <3", next: "final_feliz" },
@@ -119,7 +119,7 @@ const scenes = {
     },
     final_feliz: {
         image: "assets/final.png",
-        text: "¡COMPILACIÓN EXITOSA! Gracias por ser mi 9 de octubre favorito. ¡TE AMO!",
+        text: "¡COMPILACIÓN EXITOSA! Gracias por ser mi 9 de octubre favorito y ahora mi 9 de abril eterno. ¡TE AMO BASTANTEE!",
         showAvatars: true,
         secret: "Snoopy dice: ¡Han ganado el juego de la vida!",
         achievement: "100% COMPLETADO",
@@ -139,7 +139,22 @@ const kikePhrases = [
     "¿Ya viste qué bonitas te quedan las gerberas?",
     "Ese 9 de octubre fue el mejor bug de mi sistema.",
     "Si me dices que sí, ¡mi corazón hará un home run!",
-    "Oye... te ves hermosa hoy."
+    "Oye... te ves hermosa hoy.",
+    "QUE HERMOSA SE VE CON ROPA EN TONOS AZULES",
+    "Será ella mi compañera de vida?",
+    "estoy tan nervioso!",
+    "Todo está saliendo bien?",
+    "Es una linda sorpresa, no?",
+    "prometo cuidar este sistema que construimos juntos",
+    "eres el commit más importante de mi vida cielo",
+    "no hay microservicio que aguante tanto amor",
+    "me encantas más que terminar un código sin errores",
+    "cada que te veo se me olvida hasta como programar",
+    "estoy procesando lo mucho que te quiero",
+    "mi mundo se detiene cuando me sonríes de esa forma",
+    "gracias por ser mi lugar favorito",
+    "te elegiría en todas las versiones de mi vida",
+    "espero que este detalle te haga sentir tan especial como eres"
 ];
 
 const merPhrases = [
@@ -147,7 +162,19 @@ const merPhrases = [
     "Recuerdo que ese café sabía a pura felicidad...",
     "¿Debería decirle que sí? Mmm...",
     "¡Qué detallista salió este muchacho!",
-    "Ese momento en el billar me puso nerviosa."
+    "Ese momento en el billar me puso nerviosa.",
+    "Enserio me quiere tanto?",
+    "me gusta mucho cuando se pone así de detallista",
+    "nunca me habían hecho algo tan original",
+    "creo que mi corazón también está fallando de la emoción",
+    "me encanta como me mira cuando cree que no me doy cuenta",
+    "será que este es el inicio de algo para siempre",
+    "sus nervios me parecen lo más tierno del mundo",
+    "me hace sentir como en una película",
+    "cada detalle me convence un poquito más",
+    "siento que este momento se va a quedar guardado siempre",
+    "definitivamente sabe cómo hacerme sonreír"
+
 ];
 
 function setupAvatars() {
