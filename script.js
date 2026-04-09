@@ -9,7 +9,7 @@ const scenes = {
     },
     miedo: {
         image: "assets/miedo.png",
-        text: "CAPÍTULO 1: El Salto. Tenía un miedo increíble porque me gustabas demasiado. No sabía si lanzarme, pero me animé a enviarte ese TikTok con el cual surgió la posibilidad de tener una cita ocntigo.",
+        text: "CAPÍTULO 1: El Salto. Tenía un miedo increíble porque me gustabas demasiado. No sabía si lanzarme, pero me animé a enviarte ese TikTok con el cual surgió la posibilidad de tener una cita contigo.",
         showAvatars: true,
         secret: "Kike dice: Fue como lanzar una moneda al aire... ¡y por suerte cayó de mi lado!",
         achievement: "LOGRO: VALENTÍA +100",
@@ -68,7 +68,7 @@ const scenes = {
         text: "CAPÍTULO 4: El bilalr sarape. No era un lugar lujoso, pero fue increíble. Descubrí que eres súper competitiva y eso me encantó ademas de que pase mas tiempo contigo y eso era lo unico que importaba.",
         showAvatars: true,
         secret: "Kike dice: Casi ni jugamos por estar hable y hable. Fue perfecto quedé aun más enamorado de ti.",
-        achievement: "LOGRO: tan competitiva como Acereros",
+        achievement: "LOGRO: TAN COMPETITIVA COMO ACEREROS",
         options: [{ text: "LA TISA", next: "tisa" }]
     },
     tisa: {
@@ -81,7 +81,7 @@ const scenes = {
     },
     pelicula: {
         image: "assets/billar-pelicula.png",
-        text: "Recreé la escena de 'El Viaje Más Largo', acercándome para decirte 'sin distracciones'. Fue tan espontáneo porqiue es una escena de mi pelicual favorita y al hacerlo de prontocontigo y salió bien supe que eras la mujer de mis sueños.",
+        text: "Recreé la escena de 'El Viaje Más Largo', acercándome para decirte 'sin distracciones'. Fue tan espontáneo porque es una escena de mi pelicula favorita y al hacerlo de pronto contigo, salió tan bien supe que eras la mujer de mis sueños.",
         showAvatars: true,
         secret: "Kike dice: Ese momento se sintió como una película real contigo.",
         achievement: "LOGRO: MI PROTAGONISTA FAVORITA",
@@ -97,7 +97,7 @@ const scenes = {
     },
     propuesta: {
         image: "assets/home.png",
-        text: "hemos tenido lindos momentos, momentos inolvidables y experiencias juntos que nos han hecho estar mas seguros de nosotros mismos. Reconozco que he recorrido todas las bases contigo. Cielo, después de aquel 9 de octubre hasta la fecha quiero pedirte una cosa... ¿Quieres ser mi novia?",
+        text: "Hemos tenido lindos momentos, momentos inolvidables y experiencias juntos que nos han hecho estar mas seguros de nosotros mismos. Reconozco que he recorrido todas las bases contigo. Cielo, después de aquel 9 de octubre hasta la fecha solo quiero pedirte una cosa... ¿Quieres ser mi novia?",
         showAvatars: true,
         secret: "¡SNOOPY ESTÁ IGUAL DE NERVIOSO QUE KIKE, PERO ESTÁ LISTO PARA EL FESTEJO !!!",
         achievement: "¡ÚLTIMA MISIÓN!",
